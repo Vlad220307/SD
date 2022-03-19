@@ -1,0 +1,8 @@
+@media (min-width: 200px) and (max-width: 600px) {
+  .middle-body {
+    display: grid;
+  }
+  .middle {
+    height: 800px;
+  }
+}
