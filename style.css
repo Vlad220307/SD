@@ -18,7 +18,7 @@ body {
 
 .header {
   display: flex;
-  width: 80%;
+  width: 90%;
   height: 80px;
   margin: 0 auto;
 
@@ -35,7 +35,7 @@ body {
 
 .header-text {
   display: flex;
-  width: 250px;
+  width: 230px;
 
   justify-content: space-between;
   align-items: center;
@@ -46,6 +46,8 @@ body {
 .header-text p {
   font-family: "Playfair Display";
   font-size: 20px;
+
+  color: #fff;
 }
 
 .middle {
@@ -66,7 +68,7 @@ body {
 .middle-body img {
   width: 300px;
   height: 300px;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 20px;
 }
 
@@ -92,11 +94,11 @@ body {
 .footer {
   width: 100%;
   height: 80px;
-  background: rgb(51, 51, 51);
+  background: rgb(61, 61, 61);
 }
 
 .footer-text {
-  display: flex;
+  display: block;
   width: 40%;
   height: 50px;
 
@@ -104,6 +106,7 @@ body {
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  padding: 15px;
 }
 
 .footer-text p {
